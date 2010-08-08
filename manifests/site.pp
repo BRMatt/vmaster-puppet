@@ -1,7 +1,7 @@
 #
 # This is the file that the puppetmaster will 
 
-import "modules"
+import "modules.pp"
 
 node basenode {
 	package { "git-core": ensure => installed }
